@@ -11,5 +11,6 @@ runtime:
 
 build:
   ci:
+    - free -m
     - npm install
     - npm test
